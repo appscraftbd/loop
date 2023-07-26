@@ -42,6 +42,7 @@ Expected Output:\n\n 15*1=15\n  --------\n  ---------\n  15*10=150
             android:layout_marginRight="15dp"
             android:hint="Enter a number of Multiplication"
             android:paddingLeft="15dp"
+            android:inputType="number"
             android:textStyle="italic"
             android:textSize="18dp"
             android:id="@+id/inputmultiplication"

@@ -1,9 +1,84 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity5">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="23dp"
+            android:textStyle="bold"
+            android:textColor="#009688"
+            android:text="Write a program to display the n
+terms of square natural number and
+their sum."
+            android:padding="10dp"
+            />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:layout_marginTop="-5dp"
+            android:textColor="#4F4F4F"
+            android:padding="10dp"
+            android:text="Input the number of terms : 5\n
+Expected Output :\n
+.The square natural upto 5 terms are :\n
+ 1 4 9 16 25\n\n
+.The Sum of Square Natural Number upto 5
+terms = 55"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="#C0DDDA"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:hint="Enter a number "
+            android:paddingLeft="15dp"
+            android:inputType="number"
+            android:textStyle="italic"
+            android:textSize="18dp"
+            android:id="@+id/input"
+            />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="20dp"
+            android:id="@+id/btn"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:text="Processing"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            android:textColor="#4F4F4F"
+            android:layout_margin="20dp"
+            android:id="@+id/ans"
+            android:paddingLeft="10dp"
+            />
+
+
+
+    </LinearLayout>
+
+
+
+</ScrollView>
